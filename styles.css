@@ -114,9 +114,9 @@ main {
      - Add a bottom border: 2px solid #f39c12
      - Add 8px of padding on the bottom only
 --------------------------------------------------------------- */
-h2{
+h2 {
    color: #2c3e50;
-   bottom-border: 2px solid #f39c12;
+   border-bottom: 2px solid #f39c12;
   padding-bottom: 8px;   
 }
 
@@ -158,7 +158,7 @@ h2{
    background-color: #ffffff;
    padding: 10px;
    margin: 4px;
-   left-border: 4px solid #2c3e50
+   border-left: 4px solid #2c3e50;
 }
 
 
@@ -172,9 +172,9 @@ h2{
 --------------------------------------------------------------- */
 
 .highlight {
-   background-color:#f39c12;
+   background-color: #f39c12;
    color: #ffffff;
-   left-border: #e67e22;
+   border-left-color: #e67e22;
 }
 
 
@@ -192,7 +192,7 @@ h2{
 blockquote {
    background-color: #ffffff;
    padding: 20px;
-   left-border: 5px solid #f39c12;
+   border-left: 5px solid #f39c12;
    margin: 0 0;
    font-size: 1.1rem;
 }
@@ -211,7 +211,7 @@ blockquote {
 
 cite {
    display: block;
-   text-algin: right;
+   text-align: right;
    font-size: 0.9rem;
    color: #777777;
    margin-top: 10px;
@@ -269,7 +269,7 @@ cite {
 #main-footer{
    background-color: #2c3e50;
    color: #aaaaaa;
-   text-algin: center;
+   text-align: center;
    padding: 20px;
    margin-top: 20px;
 }
